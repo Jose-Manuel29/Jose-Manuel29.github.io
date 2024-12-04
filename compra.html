@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPA</title>
+        <link rel="shortcut icon" href="./imagenes/favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="/imagenes/favicon.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="./css/compra.css">
+    
+    
+        <meta name="theme-color" content="#2091F9">
+    
+    <meta name="title" content="Minha Spa" />
+    <meta name="description" content="concientete y relajate con nosotros" />
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Jose-Manuel29.github.io">
+    <meta property="og:description"
+        content="Relajate con nosotros .">
+    <meta property="og:image" content="https://Jose-Manuel29.github.io/imagenes/2.jpg">
+    </head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="./catalogo.html">Catálogo</a></li>
+            <li><a href="./acerca.html">¿Quiénes Somos?</a></li>
+            <li><a href="./catalogo.html">Catalogo</a></li>
+        </ul>
+    </nav>
+<div class="formu">
+    <section class="formu_container">
+    <form class="formu__form" action="https://formspree.io/f/movqydoj" method="POST">
+        <h2 class="formu__newsletter">Agenda</h2>
+        <div class="formu__inputs">
+            <input type="text" placeholder="Nombre:" class="formu__input" name="name" required>
+            <input type="email" placeholder="Email:" class="formu__input" name="email" required>
+            <input type="tel" placeholder="Teléfono:" class="formu__input" name="phone" required>
+            <select class="formu__input" name="service" required>
+                <option value="" disabled selected>Seleccione un servicio</option>
+                <option value="Masaje">Masaje</option>
+                <option value="Temazcal">Temazcal</option>
+                <option value="aparatologia">Aparatologia</option>
+            </select>
+            
+            <textarea placeholder="Dudas o comentarios:" class="formu__input" name="message" rows="4"></textarea>
+            <input type="submit" value="Registrate" class="formu__submit">
+            
+        </div>
+        
+    </form>
+    </section>
+</div>    
+
+</body>
+
+
+<script src="./js/slider.js"></script>
+<script src="./js/question"></script>
+<script src="./js/reset.js"></script>
+<script src="./js/menu.js"></script>
+</html>

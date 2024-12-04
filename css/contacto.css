@@ -1,0 +1,80 @@
+/* Reset básico y estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Estilización del hero y la navegación */
+.hero {
+    background: #000000; /* Color oscuro para consistencia */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nav__logo {
+    flex: 1;
+    text-align: center;
+}
+
+.nav__logo h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.nav__logo ul {
+    list-style: none;
+}
+
+.nav__logo ul li {
+    padding: 5px;
+}
+
+.nav__logo ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav__logo ul li a:hover {
+    color: #ffcc00; /* Un toque de color para resaltar los enlaces activos */
+}
+
+/* Añadiendo un footer estilizado si es necesario */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
